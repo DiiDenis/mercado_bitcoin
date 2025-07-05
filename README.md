@@ -81,14 +81,14 @@ Assim, ao clonar o repositório, a estrutura de pastas será preservada.
 
 Se preferir trabalhar com o front em modo de desenvolvimento (com hot-reload, etc.), siga os passos abaixo em **dois terminais separados**:
 
-#### Back-end porta connfigurada 3000
+#### Back-end | porta configurada 3000
 
 ```bash
 cd formulario_server
 npm install
 npm start
 
-cd formulario_front porta configurada 3001
+cd formulario_front | porta configurada 3001
 npm install
 npm run dev
 ```
