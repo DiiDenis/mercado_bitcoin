@@ -87,8 +87,12 @@ Se preferir trabalhar com o front em modo de desenvolvimento (com hot-reload, et
 cd formulario_server
 npm install
 npm start
+```
 
-cd formulario_front | porta configurada 3001
+#### Front-end | porta configurada 3001
+
+```bash
+cd formulario_front
 npm install
 npm run dev
 ```
