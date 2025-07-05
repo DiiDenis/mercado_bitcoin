@@ -1,0 +1,24 @@
+$primary: #e8550c;
+$text: #2e2f35;
+$light: #fff;
+$disabled: #a1a4b3;
+$error: #ff5252;
+$success: #4caf50;
+
+$colors: (
+  "light": $light,
+  "primary": $primary,
+);
+
+@each $colorname, $color in $colors {
+  .#{$colorname}-ghost {
+    background-color: rgba($color, 0);
+    color: #{$color};
+    border: 1px solid $color;
+  }
+  .#{$colorname}-filled {
+    background-color: #{$color};
+    color: $light;
+    border: 1px solid #{$color};
+  }
+}
