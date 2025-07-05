@@ -64,9 +64,6 @@ formulario_front/
   └── services/        # serviços de rede
 ```
 
-> **Dica:**  
-> O arquivo `.gitkeep` é apenas uma convenção (pode ser qualquer nome de arquivo oculto), mas é amplamente utilizado para esse propósito.
-
 Assim, ao clonar o repositório, a estrutura de pastas será preservada.
 
 ### 🔗 Rodar front-end e back-end separadamente (modo desenvolvimento)
