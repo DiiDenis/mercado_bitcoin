@@ -53,8 +53,6 @@ Explorei algumas boas práticas e padrões para deixar este projeto o mais próx
 
 ✅ Boas práticas de organização de pastas:
 
-Exemplo de estrutura com `.gitkeep`:
-
 ```
 formulario_front/
 └── src/
