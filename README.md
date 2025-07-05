@@ -59,17 +59,11 @@ Exemplo de estrutura com `.gitkeep`:
 formulario_front/
 └── src/
   ├── assets/          # imagens, estilos globais
-  │   └── .gitkeep
   ├── components/      # componentes Vue globais
-  │   ├── .gitkeep
   │   └── formulario/  # componentes específicos do formulário
-  │       └── .gitkeep
   ├── views/           # páginas principais
-  │   └── .gitkeep
   ├── validators/      # validações
-  │   └── .gitkeep
   └── services/        # serviços de rede
-    └── .gitkeep
 ```
 
 > **Dica:**  
