@@ -45,16 +45,37 @@ Explorei algumas boas práticas e padrões para deixar este projeto o mais próx
 
 ✅ **Componente "casca" do formulário** → gerencia as etapas e carrega os componentes filhos correspondentes a cada etapa.
 
+✅ ** Persistência de dados com localStorage**
+
+- Os dados do formulário são salvos no localStorage conforme ele preenche.
+- Se o usuário der um reload na página, os dados são recuperados automaticamente e exibidos para que ele possa continuar de onde parou.
+- Ao concluir o cadastro, os dados armazenados no `localStorage` são removidos.
+
 ✅ Boas práticas de organização de pastas:
 
+Exemplo de estrutura com `.gitkeep`:
+
+```
 formulario_front/
-├── src/
-│ ├── assets/ # imagens, estilos globais
-│ ├── components/ # componentes Vue globais
-│ │ └── formulario/ # componentes específicos do formulário
-│ ├── views/ # páginas principais
-│ ├── validators/ # validações
-│ ├── services/ # serviços de rede
+└── src/
+  ├── assets/          # imagens, estilos globais
+  │   └── .gitkeep
+  ├── components/      # componentes Vue globais
+  │   ├── .gitkeep
+  │   └── formulario/  # componentes específicos do formulário
+  │       └── .gitkeep
+  ├── views/           # páginas principais
+  │   └── .gitkeep
+  ├── validators/      # validações
+  │   └── .gitkeep
+  └── services/        # serviços de rede
+    └── .gitkeep
+```
+
+> **Dica:**  
+> O arquivo `.gitkeep` é apenas uma convenção (pode ser qualquer nome de arquivo oculto), mas é amplamente utilizado para esse propósito.
+
+Assim, ao clonar o repositório, a estrutura de pastas será preservada.
 
 ### 🔗 Rodar front-end e back-end separadamente (modo desenvolvimento)
 
