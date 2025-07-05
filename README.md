@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# mercado_bitcoin
-=======
 # Mercado Bitcoin - Formulário
 
 Este projeto é um exemplo completo de formulário dividido em front-end e back-end, com boas práticas e padrões que costumo aplicar no dia a dia.
@@ -74,4 +71,3 @@ cd formulario_front porta configurada 3001
 npm install
 npm run dev
 ```
->>>>>>> master
