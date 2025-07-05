@@ -1,0 +1,8 @@
+/formulario_front/dist/
+node_modules/
+
+# Outros
+.vscode/
+.idea/
+.DS_Store
+*.log
