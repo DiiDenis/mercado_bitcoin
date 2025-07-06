@@ -29,8 +29,11 @@ cd formulario_server
 npm install
 npm start
 
-
 ```
+
+Após iniciar o servidor, a aplicação estará disponível em:
+
+http://localhost:3000/registration
 
 ## Organização do projeto
 

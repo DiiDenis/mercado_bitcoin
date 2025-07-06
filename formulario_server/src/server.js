@@ -4,14 +4,18 @@ const cors = require("cors");
 const app = express();
 
 // Permitir receber JSON no corpo das requisições
-
 app.use(cors());
 app.use(express.json());
+
+// Rota default
+app.get("/", (req, res) => {
+  res.sendFile(path.resolve(__dirname, "../src/public/index.html"));
+});
 
 // Servir os arquivos estáticos (index.html e assets do Vue)
 app.use(express.static(path.join(__dirname, "dist")));
 
-// Rotas
+// Rotas aplicação
 app.get("/registration", (req, res) => {
   res.sendFile(path.join(__dirname, "dist/index.html"));
 });

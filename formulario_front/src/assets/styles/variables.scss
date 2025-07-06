@@ -15,10 +15,16 @@ $colors: (
     background-color: rgba($color, 0);
     color: #{$color};
     border: 1px solid $color;
+    &:hover {
+      background: rgba($color, 0.05);
+    }
   }
   .#{$colorname}-filled {
     background-color: #{$color};
     color: $light;
     border: 1px solid #{$color};
+    &:hover {
+      background: rgba($color, 0.8);
+    }
   }
 }
