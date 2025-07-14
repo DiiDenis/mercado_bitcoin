@@ -1,6 +1,8 @@
 # Formulário
 
 Este projeto é um exemplo completo de formulário dividido em front-end e back-end, com boas práticas e padrões que costumo aplicar no dia a dia.
+Requisitos para o projeto estão disponivel em: 
+- https://github.com/mercadobitcoin/desafio-mb-web?tab=readme-ov-file#requisitos-t%C3%A9cnicos-para-o-servidor-nodejs
 
 ## Estrutura do projeto
 
