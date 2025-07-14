@@ -156,8 +156,8 @@ const etapas = {
             form.value[key] = "";
           });
           cadastroComSucesso.value = true;
-          etapa.value = "feedback";
         }
+        etapa.value = "feedback";
       },
     },
   },
